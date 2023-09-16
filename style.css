@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+#start {
+    background-color: green;
+}
+
+#start:hover {
+    background-color: rgb(27, 222, 27);
+    color: black;
+
+}
+
+
+#stop {
+    background-color: red;
+}
+
+#stop:hover {
+    background-color: rgb(234, 12, 12);
+    color: black;
+
+}
+
+
+#reset {
+    background-color: rgb(99, 91, 91);
+
+}
+
+#reset:hover {
+    background-color: rgb(180, 160, 160);
+    color: black;
+}
